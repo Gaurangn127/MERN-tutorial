@@ -7,6 +7,10 @@ const workoutSchema = new Schema({
         type: String,
         required: true
     },
+    user_id: {
+        type: String,
+        required: true
+    },
     reps:{
         type: Number,
         required: true,
